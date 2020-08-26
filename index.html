@@ -1,0 +1,276 @@
+<html>
+	<head>
+	
+		<title> Atelier 2 </title>
+	
+	</head>
+
+<body style="color: darkblue;">
+
+<form action="register.php" method="post">
+
+<table bordercolor="red" border="3" bgcolor="white" align="left" width="750" cellpadding="8" cellspacing="0" >
+
+	<tr> <!--Section 1-->
+
+		<td rowspan="3"> <!--element sec1-->
+
+			<table bordercolor="orange" border="2" bgcolor="grey" width="100%" cellpadding="6" cellspacing="0" >
+				<tr>
+
+					<td>
+						
+						<section>
+								<h1 align="center" style="color: red;font-family: comic sans ms;"><a href="Pages/index.html"><img src="Images/photo1.jpg"  style="float: right;"></a>Informations Personelles</h1>
+								<a name="#infoPers"></a>
+							<table bordercolor="black" border="1" bgcolor="#f1e3cb" width="100%" cellpadding="0" cellspacing="0">
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td align="right">
+												<strong style="color: black;">Nom:</strong><br>
+												<strong style="color: black">Prenom:</strong><br>
+												<strong style="color: black">Date de Naissance:</strong> <br>
+												<strong style="color: black">Lieu de Naissance:</strong> <br>
+												</td>
+												<td>
+													<input type="Text" name="Nom"> <br>
+													<input type="Text" name="Prenom"> <br>
+													<input type="Text" name="DN"> <br>
+													<select  name="LN">
+														<option value="vide"> </option>
+														<option value="Beni Messous">Beni Messous</option>
+														<option value="Hussein Dey">Hussein Dey</option>
+														<option value="El-Biar">El-Biar</option>
+														<option value="Alger centre">Alger centre</option>
+													</select> <br>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								
+							</table>
+
+						</section>
+
+					</td>
+					
+				</tr>
+
+			</table>
+			<br>
+		 <!--Section 2-->
+
+		 <!--element sec2-->
+
+			<table bordercolor="orange" border="2" bgcolor="grey" width="100%" cellpadding="6" cellspacing="0">
+				<tr>
+
+					<td>
+						<section>
+								<h1 align="center" style="color: red;font-family:comic sans ms;">Informations de Contact</h1>
+								<a name="#infoCon"></a>
+							<table bordercolor="black" border="1" bgcolor="#f1e3cb" width="100%" cellpadding="0" cellspacing="0">
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td align="right">
+													<strong style="color: black">Adresse email: </strong><br>
+													<strong style="color: black">Numero de t&#233;l&#233;phone:</strong> <br>
+													<strong style="color: black">Adresse:</strong> <br>
+													<strong style="color: black">Commune:</strong> <br>
+													<strong style="color: black">Wilaya:</strong> <br>
+												</td>
+												<td>
+													<input type="Text" name="email"></a><br>
+													<input type="Text" name="Num"><br>
+													<textarea rows="1" name="adr"></textarea><br>
+													<select name="Commune">
+														<option value="vide"> </option>
+														<option value="El Achour">El Achour</option>
+														<option value="Baba Hassen">Baba Hassen </option>
+														<option value="Ben Aknoun">Ben Aknoun </option>
+														<option value="Casbah">Casbah</option>
+														<option value="Cheraga">Cheraga</option>
+														<option value="Draria">Draria</option>
+													</select><br>
+													<select name="Wilaya">
+														<option value="vide"></option>
+														<option value="Alger">Alger</option>
+														<option value="Bouira">Bouira</option>
+														<option value="Blida">Blida</option>
+														<option value="Tipaza">Tipaza</option>
+													</select><br>
+												</td>
+											</tr>
+										</table>
+									</td>	
+								</tr>
+
+							</table>
+
+						</section>
+
+					</td>
+					
+				</tr>
+
+			</table>
+
+
+			<br>
+
+	<!--Section 3-->
+
+		 <!--element sec3-->
+
+			<table bordercolor="orange" border="2" bgcolor="grey" width="100%" cellpadding="6" cellspacing="0">
+				<tr>
+
+					<td>
+						<section>
+								<h1 align="center" style="color: red;font-family:comic sans ms;">Informations sur Cursus</h1>
+								<a name="#infoCur"></a>
+							<table bordercolor="black" border="1" bgcolor="#f1e3cb" width="100%" cellpadding="0" cellspacing="0">
+								<tr>
+									<td>
+										<ol>
+											<li >
+											<strong style="color: black">Cycle Secondaire: </strong>
+												<ul><br>
+													<li>
+														<strong style="color: black">Lyc&#233;e:</strong>      <input type="text" name="Lyc">
+													</li>
+													<li>
+														<strong style="color: black">Ann&#233;e de d&#233;but:</strong>
+														<select name="Annee">
+																<option value="vide"></option>
+																<option value="2005">2005</option>
+																<option value="2006">2006</option>
+																<option value="2007">2007</option>
+																<option value="2008">2008</option>
+																<option value="2009">2009</option>
+																<option value="2010">2010</option>
+																<option value="2011">2011</option>
+																<option value="2012">2012</option>
+																<option value="2013">2013</option>
+																<option value="2014">2014</option>
+																<option value="2015">2015</option>
+															
+														</select>
+													</li>
+													<li>
+														<strong style="color: black">Ann&#233;e de fin: 
+														 </strong> 
+														 <select name="AnneeF">
+																<option value="vide"></option>
+																<option value="2010">2010</option>
+																<option value="2011">2011</option>
+																<option value="2012">2012</option>
+																<option value="2013">2013</option>
+																<option value="2014">2014</option>
+																<option value="2015">2015</option>
+																<option value="2016">2016</option>
+																<option value="2017">2017</option>
+
+														</select>
+													</li>
+												</ul>
+											</li>
+											<br>
+											<li>
+												<strong style="color: black">Bac:</strong>
+												<ul>
+													<li>
+														<dl>
+															<dt>
+																<strong style="color: black">S&#233;rie:</strong>
+															</dt>
+															<dd>
+																<select name="Serie">
+																	<option value="vide"></option>
+																	<option value="Scientifique">Scientifique</option>
+																	<option value="Maths">Maths</option>
+																	<option value="Maths Technique">Maths Technique</option>
+																	<option value="Lettres">Lettres</option>
+																</select>
+															</dd>
+															
+														</dl>
+													<li>
+														<dl>
+															<dt>
+																<strong style="color: black">Mention:</strong>
+															</dt>
+															<dd>
+																<select name="Mention">
+																	<option value="vide"></option>
+																	<option value="Assez Bien">Assez Bien</option>
+																	<option value="Bien">Bien</option>
+																	<option value="Tres Bien">Tres Bien</option>
+																	<option value="Excellent">Excellent</option>
+																</select>
+															</dd>
+														</dl>
+													</li>
+													<li>
+														<strong style="color: black">Moyenne:</strong> 
+														<input type="text" name="Moy">
+													</li>
+												</ul>
+											</li>
+											<br>
+											<li>
+												<strong style="color: black">Cycle Universitaire:</strong>
+												<ul><br>
+													<li>
+														<strong style="color: black">Universit&#233;:</strong>
+														<a href='https://www.usthb.dz/' style="text-decoration-line:  none"> U.S.T.H.B </a>
+													</li>
+													<li>
+														<strong style="color: black">Ann&#233;e de debut: 
+														</strong> 
+														<select name="AnneeD">
+																<option value="vide"></option>
+																<option value="2010">2010</option>
+																<option value="2011">2011</option>
+																<option value="2012">2012</option>
+																<option value="2013">2013</option>
+																<option value="2014">2014</option>
+																<option value="2015">2015</option>
+																<option value="2016">2016</option>
+																<option value="2017">2017</option>
+
+														</select>
+													</li>
+													<li>
+														<strong style="color: black">Titre P.F.E:</strong> 
+														<textarea rows="1" name="Pfe"></textarea>
+													</li>
+												</ul>
+											</li>
+										</ol>
+									</td>
+								</tr>
+
+							</table>	
+	
+						</section>
+
+					</td>
+					
+				</tr>
+
+			</table>
+		<input type="submit" name="Valider" style="width: 100px; height: 30px" >
+</table>
+	
+</form>
+
+</body>
+
+
+</html>
